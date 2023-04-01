@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>HTML登录/注册页面代码</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<div class="container" id="loginAndRegister">
+			<!-- 这个是用来装饰的 -->
+			<div class="box"></div>
+			<div class="container-forms">
+				<!-- 注册登陆切换页面 -->
+				<div class="container-info">
+					<div class="info-item">
+						<div class="table">
+							<div class="table-cell">
+								<p>已经有账号了？ </p>
+								<div class="btn" id="changeToLogin">登录 </div>
+							</div>
+						</div>
+					</div>
+					<div class="info-item">
+						<div class="table">
+							<div class="table-cell">
+								<p>还没有账号？ </p>
+								<div class="btn" id="changeToRegister">注册 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 登陆/注册页面 -->
+				<div class="container-form">
+					<div class="form-item log-in">
+						<div class="table">
+							<div class="table-cell">
+								<input name="Username" placeholder="用户名" type="text">
+								<input name="Password" placeholder="密码" type="Password">
+								<div class="btn">登录 </div>
+							</div>
+						</div>
+					</div>
+					<div class="form-item sign-up">
+						<div class="table">
+							<div class="table-cell">
+								<input name="email" placeholder="邮箱" type="text">
+								<input name="fullName" placeholder="名字" type="text">
+								<input name="Username" placeholder="用户名" type="text">
+								<input name="Password" placeholder="密码" type="Password">
+								<div class="btn">注册 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
